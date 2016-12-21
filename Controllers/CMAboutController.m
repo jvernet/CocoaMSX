@@ -89,7 +89,8 @@
 
 - (void)awakeFromNib
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"AboutContent"
+   /*
+   NSString *path = [[NSBundle mainBundle] pathForResource:@"AboutContent"
                                                      ofType:@"rtf"
                                                 inDirectory:@"Documents"];
     scrollingTextTemplate = [[NSMutableAttributedString alloc] initWithPath:path
@@ -108,7 +109,8 @@
                                              selector:@selector(boundsDidChange:)
                                                  name:NSViewBoundsDidChangeNotification
                                                object:[textScrollView contentView]];
-}
+*/
+	}
 
 - (void)windowDidLoad
 {

@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2581BD1E0A7F0400380034 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581BF1E0A7F0400380034 /* About.xib */; };
+		4E2581C11E0A7F1B00380034 /* Emulator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581C31E0A7F1B00380034 /* Emulator.xib */; };
+		4E2581C51E0A7F4900380034 /* ConfigureJoystick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581C71E0A7F4900380034 /* ConfigureJoystick.xib */; };
+		4E2581CA1E0A7F5600380034 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581CC1E0A7F5600380034 /* Preferences.xib */; };
+		4E2581CE1E0A7F5D00380034 /* RepositionCassette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581D01E0A7F5D00380034 /* RepositionCassette.xib */; };
+		4E2581D21E0A7F6500380034 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2581D41E0A7F6500380034 /* MainMenu.xib */; };
 		6B1C25AC1672972F004DD618 /* CMKeyboardInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C25AB1672972F004DD618 /* CMKeyboardInput.m */; };
-		6B36CC451644806B00B5FDB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B36CC441644806B00B5FDB7 /* MainMenu.xib */; };
 		6B5D2863161F44CC0081F586 /* CMCocoaInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D2862161F44CC0081F586 /* CMCocoaInput.m */; };
 		6B5D287B161F60620081F586 /* Language.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D2868161F60620081F586 /* Language.c */; settings = {COMPILER_FLAGS = "-Wno-incompatible-pointer-types -Wno-unused-variable -Wno-pointer-sign -Wno-switch -Wno-missing-declarations -Wno-varargs"; }; };
 		6BCA7568164D7D09002CA211 /* toolbar-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCA7562164D7D09002CA211 /* toolbar-video.png */; };
@@ -268,7 +273,6 @@
 		E99734781298B4B500766C90 /* R800Dasm.c in Sources */ = {isa = PBXBuildFile; fileRef = E99733621298B4B500766C90 /* R800Dasm.c */; settings = {COMPILER_FLAGS = "-Wno-incompatible-pointer-types -Wno-unused-variable -Wno-pointer-sign -Wno-switch -Wno-missing-declarations -Wno-varargs"; }; };
 		E99734791298B4B500766C90 /* R800Debug.c in Sources */ = {isa = PBXBuildFile; fileRef = E99733641298B4B500766C90 /* R800Debug.c */; settings = {COMPILER_FLAGS = "-Wno-incompatible-pointer-types -Wno-unused-variable -Wno-pointer-sign -Wno-switch -Wno-missing-declarations -Wno-varargs"; }; };
 		E997347A1298B4B500766C90 /* R800SaveState.c in Sources */ = {isa = PBXBuildFile; fileRef = E99733661298B4B500766C90 /* R800SaveState.c */; settings = {COMPILER_FLAGS = "-Wno-incompatible-pointer-types -Wno-unused-variable -Wno-pointer-sign -Wno-switch -Wno-missing-declarations -Wno-varargs"; }; };
-		FE05CAD1176CD17C00D6CAC0 /* ConfigureJoystick.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE05CAD0176CD17C00D6CAC0 /* ConfigureJoystick.xib */; };
 		FE05CAD4176CD21200D6CAC0 /* CMConfigureJoystickController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE05CAD3176CD21200D6CAC0 /* CMConfigureJoystickController.m */; };
 		FE0C5F04192F344900FBE461 /* CMKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C5F03192F344900FBE461 /* CMKeyboardManager.m */; };
 		FE0C5F08192F3F7500FBE461 /* CMGamepadEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C5F07192F3F7500FBE461 /* CMGamepadEventData.m */; };
@@ -287,14 +291,12 @@
 		FE17DC0216B3BD1A004ED68D /* logo-turbor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17DBFA16B3BD1A004ED68D /* logo-turbor@2x.png */; };
 		FE17DC0516B3CFAF004ED68D /* CMMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FE17DC0416B3CFAF004ED68D /* CMMachine.m */; };
 		FE1905241937965600CC3E08 /* CMMixerChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1905231937965600CC3E08 /* CMMixerChannel.m */; };
-		FE1C134F167DCF8900CE2B6B /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C134E167DCF8900CE2B6B /* About.xib */; };
 		FE1C1356167DD08E00CE2B6B /* CMAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1C1355167DD08E00CE2B6B /* CMAboutController.m */; };
 		FE1C1358167DE0D200CE2B6B /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = FE1C1357167DE0D200CE2B6B /* Documents */; };
 		FE1C135C167DE41800CE2B6B /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1C135A167DE41800CE2B6B /* AppIcon.png */; };
 		FE1C135D167DE41800CE2B6B /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1C135B167DE41800CE2B6B /* AppIcon@2x.png */; };
 		FE1D58D7161D744800E70CF8 /* CMCocoaSound.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1D58D6161D744800E70CF8 /* CMCocoaSound.m */; };
 		FE23EAAE1636679C00AC98BF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE23EAAC1636670500AC98BF /* Carbon.framework */; };
-		FE2A2BD916240966000CCAE4 /* RepositionCassette.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE2A2BD816240966000CCAE4 /* RepositionCassette.xib */; };
 		FE2A2BDD16240DB7000CCAE4 /* CMRepositionCassetteController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2A2BDC16240DB7000CCAE4 /* CMRepositionCassetteController.m */; };
 		FE2CEB581622A50500E58F9A /* Databases in Resources */ = {isa = PBXBuildFile; fileRef = FE2CEB551622A50500E58F9A /* Databases */; };
 		FE2CEB5A1622A50500E58F9A /* Machines in Resources */ = {isa = PBXBuildFile; fileRef = FE2CEB571622A50500E58F9A /* Machines */; };
@@ -306,7 +308,6 @@
 		FE3D5E6616AE6EBA00898DF5 /* toolbar-computer.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D5E6416AE6EBA00898DF5 /* toolbar-computer.png */; };
 		FE3D5E6716AE6EBA00898DF5 /* toolbar-computer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D5E6516AE6EBA00898DF5 /* toolbar-computer@2x.png */; };
 		FE41ABA11930056100AB89FF /* CMKeyEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE41ABA01930056100AB89FF /* CMKeyEventData.m */; };
-		FE42836315FE857400ED7CB9 /* Emulator.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE42836215FE857400ED7CB9 /* Emulator.xib */; };
 		FE42836A15FE8DF300ED7CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42836915FE8DF300ED7CB9 /* main.m */; };
 		FE42CF80160EBF9B00D06E1D /* CMCocoaTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42CF7F160EBF9B00D06E1D /* CMCocoaTimer.m */; };
 		FE46C8ED16CA188E00D25801 /* icon-downloading.png in Resources */ = {isa = PBXBuildFile; fileRef = FE46C8EB16CA188E00D25801 /* icon-downloading.png */; };
@@ -367,7 +368,6 @@
 		FEB8DFC31692402F009BE6E4 /* toolbar-sound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8DFBD1692402E009BE6E4 /* toolbar-sound@2x.png */; };
 		FEC2A41C1D21987B00A569E0 /* cocoamsx.iconset in Resources */ = {isa = PBXBuildFile; fileRef = FEC2A41B1D21987B00A569E0 /* cocoamsx.iconset */; };
 		FEC7231915FF0E3400CB508C /* CMPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC7231815FF0E3400CB508C /* CMPreferenceController.m */; };
-		FEC7232215FF133700CB508C /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC7232115FF133700CB508C /* Preferences.xib */; };
 		FEC9AE1F193A947300E4725D /* rensha_led_off.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC9AE1B193A947300E4725D /* rensha_led_off.png */; };
 		FEC9AE20193A947300E4725D /* rensha_led_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC9AE1C193A947300E4725D /* rensha_led_off@2x.png */; };
 		FEC9AE21193A947300E4725D /* rensha_led_on.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC9AE1D193A947300E4725D /* rensha_led_on.png */; };
@@ -432,10 +432,21 @@
 		256AC3F00F4B6AF500CF3369 /* CocoaMSX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMSX_Prefix.pch; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4E2581BE1E0A7F0400380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/About.xib; sourceTree = "<group>"; };
+		4E2581C01E0A7F0700380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/About.xib; sourceTree = "<group>"; };
+		4E2581C21E0A7F1B00380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Emulator.xib; sourceTree = "<group>"; };
+		4E2581C61E0A7F4900380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConfigureJoystick.xib; sourceTree = "<group>"; };
+		4E2581C81E0A7F4C00380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/Emulator.xib; sourceTree = "<group>"; };
+		4E2581C91E0A7F5100380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/ConfigureJoystick.xib; sourceTree = "<group>"; };
+		4E2581CB1E0A7F5600380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Preferences.xib; sourceTree = "<group>"; };
+		4E2581CD1E0A7F5800380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/Preferences.xib; sourceTree = "<group>"; };
+		4E2581CF1E0A7F5D00380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RepositionCassette.xib; sourceTree = "<group>"; };
+		4E2581D11E0A7F5F00380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/RepositionCassette.xib; sourceTree = "<group>"; };
+		4E2581D31E0A7F6500380034 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4E2581D51E0A7F6600380034 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6B1631CC161FAE21009E6A55 /* LanguageStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageStrings.h; sourceTree = "<group>"; };
 		6B1C25AA1672972F004DD618 /* CMKeyboardInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMKeyboardInput.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		6B1C25AB1672972F004DD618 /* CMKeyboardInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMKeyboardInput.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		6B36CC441644806B00B5FDB7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		6B5D2861161F44CC0081F586 /* CMCocoaInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMCocoaInput.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		6B5D2862161F44CC0081F586 /* CMCocoaInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMCocoaInput.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6B5D2868161F60620081F586 /* Language.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Language.c; sourceTree = "<group>"; };
@@ -982,7 +993,6 @@
 		E99733651298B4B500766C90 /* R800Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R800Debug.h; sourceTree = "<group>"; };
 		E99733661298B4B500766C90 /* R800SaveState.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = R800SaveState.c; sourceTree = "<group>"; };
 		E99733671298B4B500766C90 /* R800SaveState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R800SaveState.h; sourceTree = "<group>"; };
-		FE05CAD0176CD17C00D6CAC0 /* ConfigureJoystick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureJoystick.xib; sourceTree = "<group>"; };
 		FE05CAD2176CD21200D6CAC0 /* CMConfigureJoystickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMConfigureJoystickController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		FE05CAD3176CD21200D6CAC0 /* CMConfigureJoystickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMConfigureJoystickController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FE0C5F02192F344900FBE461 /* CMKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMKeyboardManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -1007,7 +1017,6 @@
 		FE17DC0416B3CFAF004ED68D /* CMMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMMachine.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FE1905221937965600CC3E08 /* CMMixerChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMixerChannel.h; sourceTree = "<group>"; };
 		FE1905231937965600CC3E08 /* CMMixerChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMixerChannel.m; sourceTree = "<group>"; };
-		FE1C134E167DCF8900CE2B6B /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
 		FE1C1354167DD08E00CE2B6B /* CMAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMAboutController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		FE1C1355167DD08E00CE2B6B /* CMAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMAboutController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FE1C1357167DE0D200CE2B6B /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
@@ -1019,7 +1028,6 @@
 		FE20DB8F1632783200D44ADF /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		FE20DB94163278AD00D44ADF /* blueMSX License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blueMSX License.txt"; sourceTree = "<group>"; };
 		FE23EAAC1636670500AC98BF /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		FE2A2BD816240966000CCAE4 /* RepositionCassette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositionCassette.xib; sourceTree = "<group>"; };
 		FE2A2BDB16240DB7000CCAE4 /* CMRepositionCassetteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRepositionCassetteController.h; sourceTree = "<group>"; };
 		FE2A2BDC16240DB7000CCAE4 /* CMRepositionCassetteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRepositionCassetteController.m; sourceTree = "<group>"; };
 		FE2CEB551622A50500E58F9A /* Databases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Databases; sourceTree = "<group>"; };
@@ -1038,7 +1046,6 @@
 		FE3D5E6516AE6EBA00898DF5 /* toolbar-computer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-computer@2x.png"; sourceTree = "<group>"; };
 		FE41ABA01930056100AB89FF /* CMKeyEventData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMKeyEventData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FE41ABA21930056800AB89FF /* CMKeyEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CMKeyEventData.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		FE42836215FE857400ED7CB9 /* Emulator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Emulator.xib; sourceTree = "<group>"; };
 		FE42836915FE8DF300ED7CB9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE42CF7F160EBF9B00D06E1D /* CMCocoaTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMCocoaTimer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FE46C8EB16CA188E00D25801 /* icon-downloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-downloading.png"; sourceTree = "<group>"; };
@@ -1127,7 +1134,6 @@
 		FEC2A41B1D21987B00A569E0 /* cocoamsx.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = cocoamsx.iconset; path = ../cocoamsx.iconset; sourceTree = "<group>"; };
 		FEC7231715FF0E3400CB508C /* CMPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPreferenceController.h; sourceTree = "<group>"; };
 		FEC7231815FF0E3400CB508C /* CMPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPreferenceController.m; sourceTree = "<group>"; };
-		FEC7232115FF133700CB508C /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		FEC9AE1B193A947300E4725D /* rensha_led_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rensha_led_off.png; sourceTree = "<group>"; };
 		FEC9AE1C193A947300E4725D /* rensha_led_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rensha_led_off@2x.png"; sourceTree = "<group>"; };
 		FEC9AE1D193A947300E4725D /* rensha_led_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rensha_led_on.png; sourceTree = "<group>"; };
@@ -1274,12 +1280,12 @@
 				FE2CEB571622A50500E58F9A /* Machines */,
 				FEA01B361620C7720066FDD8 /* Localizable.strings */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				FE1C134E167DCF8900CE2B6B /* About.xib */,
-				FE05CAD0176CD17C00D6CAC0 /* ConfigureJoystick.xib */,
-				FE42836215FE857400ED7CB9 /* Emulator.xib */,
-				FEC7232115FF133700CB508C /* Preferences.xib */,
-				FE2A2BD816240966000CCAE4 /* RepositionCassette.xib */,
-				6B36CC441644806B00B5FDB7 /* MainMenu.xib */,
+				4E2581BF1E0A7F0400380034 /* About.xib */,
+				4E2581C71E0A7F4900380034 /* ConfigureJoystick.xib */,
+				4E2581C31E0A7F1B00380034 /* Emulator.xib */,
+				4E2581CC1E0A7F5600380034 /* Preferences.xib */,
+				4E2581D01E0A7F5D00380034 /* RepositionCassette.xib */,
+				4E2581D41E0A7F6500380034 /* MainMenu.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2365,9 +2371,9 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				E99733701298B4B500766C90 /* build_info.txt in Resources */,
-				FE42836315FE857400ED7CB9 /* Emulator.xib in Resources */,
+				4E2581C11E0A7F1B00380034 /* Emulator.xib in Resources */,
 				FEC9AE1F193A947300E4725D /* rensha_led_off.png in Resources */,
-				FEC7232215FF133700CB508C /* Preferences.xib in Resources */,
+				4E2581CA1E0A7F5600380034 /* Preferences.xib in Resources */,
 				FEC2A41C1D21987B00A569E0 /* cocoamsx.iconset in Resources */,
 				FEA01B371620C7720066FDD8 /* Localizable.strings in Resources */,
 				FE5CDEC4192C8BE600312BB4 /* caps_led_off@2x.png in Resources */,
@@ -2375,10 +2381,10 @@
 				FEC9AE20193A947300E4725D /* rensha_led_off@2x.png in Resources */,
 				FEC9AE28193AE0DF00E4725D /* cas_led_off@2x.png in Resources */,
 				FE2CEB5A1622A50500E58F9A /* Machines in Resources */,
-				FE2A2BD916240966000CCAE4 /* RepositionCassette.xib in Resources */,
+				4E2581CE1E0A7F5D00380034 /* RepositionCassette.xib in Resources */,
 				FED34F3D163F320D002FCC89 /* Defaults.plist in Resources */,
 				FE5CDEC3192C8BE600312BB4 /* caps_led_on@2x.png in Resources */,
-				6B36CC451644806B00B5FDB7 /* MainMenu.xib in Resources */,
+				4E2581D21E0A7F6500380034 /* MainMenu.xib in Resources */,
 				6BCA7568164D7D09002CA211 /* toolbar-video.png in Resources */,
 				6BCA7569164D7D09002CA211 /* toolbar-video@2x.png in Resources */,
 				FED5C862193860E80045FE8C /* pause_led_on.png in Resources */,
@@ -2387,7 +2393,7 @@
 				FEE801581674ACD000695F38 /* CartridgeDocument.icns in Resources */,
 				FEA4548D1679B65300AAECB7 /* DiskDocument.icns in Resources */,
 				FEA454901679BAF700AAECB7 /* CassetteDocument.icns in Resources */,
-				FE1C134F167DCF8900CE2B6B /* About.xib in Resources */,
+				4E2581BD1E0A7F0400380034 /* About.xib in Resources */,
 				FE1C1358167DE0D200CE2B6B /* Documents in Resources */,
 				FEC9AE22193A947300E4725D /* rensha_led_on@2x.png in Resources */,
 				FED5C86A1938629B0045FE8C /* power_led_on.png in Resources */,
@@ -2439,7 +2445,7 @@
 				FEA74EFD16FC14B60033E2DE /* Data in Resources */,
 				FED5C8681938629B0045FE8C /* power_led_off.png in Resources */,
 				FEC9AE29193AE0DF00E4725D /* cas_led_on.png in Resources */,
-				FE05CAD1176CD17C00D6CAC0 /* ConfigureJoystick.xib in Resources */,
+				4E2581C51E0A7F4900380034 /* ConfigureJoystick.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2783,6 +2789,60 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		4E2581BF1E0A7F0400380034 /* About.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581BE1E0A7F0400380034 /* en */,
+				4E2581C01E0A7F0700380034 /* fr */,
+			);
+			name = About.xib;
+			sourceTree = "<group>";
+		};
+		4E2581C31E0A7F1B00380034 /* Emulator.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581C21E0A7F1B00380034 /* en */,
+				4E2581C81E0A7F4C00380034 /* fr */,
+			);
+			name = Emulator.xib;
+			sourceTree = "<group>";
+		};
+		4E2581C71E0A7F4900380034 /* ConfigureJoystick.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581C61E0A7F4900380034 /* en */,
+				4E2581C91E0A7F5100380034 /* fr */,
+			);
+			name = ConfigureJoystick.xib;
+			sourceTree = "<group>";
+		};
+		4E2581CC1E0A7F5600380034 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581CB1E0A7F5600380034 /* en */,
+				4E2581CD1E0A7F5800380034 /* fr */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		4E2581D01E0A7F5D00380034 /* RepositionCassette.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581CF1E0A7F5D00380034 /* en */,
+				4E2581D11E0A7F5F00380034 /* fr */,
+			);
+			name = RepositionCassette.xib;
+			sourceTree = "<group>";
+		};
+		4E2581D41E0A7F6500380034 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2581D31E0A7F6500380034 /* en */,
+				4E2581D51E0A7F6600380034 /* fr */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -2794,6 +2854,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)",
@@ -2835,6 +2896,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CocoaMSX_Prefix.pch;
