@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
         <development version="7000" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -29,20 +29,20 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="CocoaMSX" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About CocoaMSX" id="58">
+                            <menuItem title="A propos de CocoaMSX" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="openAbout:" target="-1" id="gO6-f9-Cmc"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Check for Updates..." id="1274">
+                            <menuItem title="Mise à jour..." id="1274">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="checkForUpdates:" target="797" id="4Uw-ZD-jdi"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="236"/>
-                            <menuItem title="Preferences…" keyEquivalent="," id="129">
+                            <menuItem title="Préférences…" keyEquivalent="," id="129">
                                 <connections>
                                     <action selector="openPreferences:" target="-1" id="9dY-u6-BwH"/>
                                 </connections>
@@ -53,25 +53,25 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="130"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="144"/>
-                            <menuItem title="Hide CocoaMSX" keyEquivalent="h" id="134">
+                            <menuItem title="Masquer CocoaMSX" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-1" id="367"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Hide Others" keyEquivalent="h" id="145">
+                            <menuItem title="Masquer les Autres" keyEquivalent="h" id="145">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="hideOtherApplications:" target="-1" id="368"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show All" id="150">
+                            <menuItem title="Tout montrer" id="150">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="unhideAllApplications:" target="-1" id="370"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="149"/>
-                            <menuItem title="Quit CocoaMSX" keyEquivalent="q" id="136">
+                            <menuItem title="Quitter CocoaMSX" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="369"/>
                                 </connections>
@@ -79,13 +79,13 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="File" id="83">
+                <menuItem title="Fichier" id="83">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="File" id="81">
+                    <menu key="submenu" title="Fichier" id="81">
                         <items>
-                            <menuItem title="Cartridge Slot 1" id="1250">
+                            <menuItem title="Cartouche Slot 1" id="1250">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Cartridge Slot 1" id="1251">
+                                <menu key="submenu" title="Cartouche Slot 1" id="1251">
                                     <items>
                                         <menuItem title="Insert..." keyEquivalent="o" id="874">
                                             <connections>
@@ -115,9 +115,9 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Cartridge Slot 2" id="1255">
+                            <menuItem title="Cartouche Slot 2" id="1255">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES"/>
-                                <menu key="submenu" title="Cartridge Slot 2" id="1256">
+                                <menu key="submenu" title="Cartouche Slot 2" id="1256">
                                     <items>
                                         <menuItem title="Insert..." id="865">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -148,16 +148,16 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Reset on Cart Insert/Eject" id="862">
+                            <menuItem title="Reset sur Cart Insert/Eject" id="862">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="toggleCartAutoReset:" target="-1" id="1218"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="79"/>
-                            <menuItem title="Drive A:" id="1260">
+                            <menuItem title="Lecteur A:" id="1260">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Drive A:" id="1265">
+                                <menu key="submenu" title="Lecteur A:" id="1265">
                                     <items>
                                         <menuItem title="Insert..." id="0YF-HP-WhN">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -195,9 +195,9 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Drive B:" id="1269">
+                            <menuItem title="Lecteur B:" id="1269">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Drive B:" id="1270">
+                                <menu key="submenu" title="Lecteur B:" id="1270">
                                     <items>
                                         <menuItem title="Insert..." id="990">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -235,7 +235,7 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Reset on Disk Insert" id="995">
+                            <menuItem title="Reset sur insert. Disque" id="995">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="toggleDiskAutoReset:" target="-1" id="1219"/>
@@ -386,7 +386,7 @@
                                 </menu>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1028"/>
-                            <menuItem title="Close" keyEquivalent="w" id="73">
+                            <menuItem title="Fermer" keyEquivalent="w" id="73">
                                 <connections>
                                     <action selector="performClose:" target="-1" id="193"/>
                                 </connections>
@@ -394,11 +394,11 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Edit" id="1303">
+                <menuItem title="Edition" id="1303">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Edit" id="1304">
+                    <menu key="submenu" title="Edition" id="1304">
                         <items>
-                            <menuItem title="Paste" keyEquivalent="v" id="1310">
+                            <menuItem title="Coller" keyEquivalent="v" id="1310">
                                 <connections>
                                     <action selector="pasteText:" target="-1" id="1381"/>
                                 </connections>
@@ -406,26 +406,26 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="View" id="295">
+                <menuItem title="Vue" id="295">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="View" id="296">
+                    <menu key="submenu" title="Vue" id="296">
                         <items>
-                            <menuItem title="Normal Size" keyEquivalent="1" id="843">
+                            <menuItem title="Taille Normale" keyEquivalent="1" id="843">
                                 <connections>
                                     <action selector="normalSize:" target="-1" id="1204"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="847"/>
-                            <menuItem title="Show Status Bar" keyEquivalent="/" id="1279">
+                            <menuItem title="Montrer Barre Status" keyEquivalent="/" id="1279">
                                 <connections>
                                     <action selector="toggleStatusBar:" target="-1" id="1286"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show Frame Rate" id="qRB-JS-u9P">
+                            <menuItem title="Montrer Frame Rate" id="qRB-JS-u9P">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1280"/>
-                            <menuItem title="Enter Full Screen" keyEquivalent="f" id="855">
+                            <menuItem title="Plein Ecran" keyEquivalent="f" id="855">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
                                     <action selector="toggleFullScreen:" target="-1" id="1246"/>
@@ -456,7 +456,7 @@
                                     <action selector="hardResetMsx:" target="-1" id="Nhu-mk-o1X"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Shut Down" id="946">
+                            <menuItem title="Eteindre" id="946">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="shutDownMsx:" target="-1" id="1209"/>
@@ -471,11 +471,11 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Window" id="19">
+                <menuItem title="Fenètre" id="19">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
+                    <menu key="submenu" title="Fenètre" systemMenu="window" id="24">
                         <items>
-                            <menuItem title="Minimize" keyEquivalent="m" id="23">
+                            <menuItem title="Minimiser" keyEquivalent="m" id="23">
                                 <connections>
                                     <action selector="performMiniaturize:" target="-1" id="37"/>
                                 </connections>
@@ -487,7 +487,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="92"/>
-                            <menuItem title="Bring All to Front" id="5">
+                            <menuItem title="Tout ammener au premier plan" id="5">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="arrangeInFront:" target="-1" id="39"/>
@@ -496,9 +496,9 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Help" id="103">
+                <menuItem title="Aide" id="103">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Help" systemMenu="help" id="106">
+                    <menu key="submenu" title="Aide" systemMenu="help" id="106">
                         <items>
                             <menuItem title="CocoaMSX Help" enabled="NO" keyEquivalent="?" id="111">
                                 <connections>
